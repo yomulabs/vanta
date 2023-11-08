@@ -108,8 +108,8 @@ VANTA.VantaBase = class VantaBase {
 
     // Event listeners
     const ad = window.addEventListener
-    ad('resize', this.resize)
-    window.requestAnimationFrame(this.resize) // Force a resize after the first frame
+    // ad('resize', this.resize)
+    // window.requestAnimationFrame(this.resize) // Force a resize after the first frame
 
     // Add event listeners on window, because this element may be below other elements, which would block the element's own mousemove event
     if (this.options.mouseControls) {
