@@ -72,8 +72,8 @@ class Halo extends ShaderBase {
     this.bufferFeedback = null
   }
 }
-VANTA.register('HALO', Halo)
-export default VANTA
+export default VANTA.register('HALO', Halo)
+
 
 Halo.prototype.fragmentShader = `\
 uniform vec2 iResolution;

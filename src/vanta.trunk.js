@@ -84,5 +84,4 @@ class Effect extends P5Base {
   }
 }
 Effect.initClass()
-VANTA.register('TRUNK', Effect)
-export default VANTA
+export default VANTA.register('TRUNK', Effect)

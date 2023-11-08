@@ -200,5 +200,4 @@ class Waves extends VantaBase {
 
 Waves.prototype.defaultOptions = defaultOptions
 Waves.initClass()
-VANTA.register('WAVES', Waves)
-export default VANTA
+export default VANTA.register('WAVES', Waves)

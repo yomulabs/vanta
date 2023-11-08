@@ -389,5 +389,5 @@ class Effect extends VantaBase {
   }
 }
 Effect.initClass()
-VANTA.register('GLOBE', Effect)
-export default VANTA
+export default VANTA.register('GLOBE', Effect)
+
