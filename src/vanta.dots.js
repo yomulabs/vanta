@@ -130,4 +130,5 @@ class Effect extends VantaBase {
   }
 }
 Effect.initClass()
-export default VANTA.register('DOTS', Effect)
+VANTA.register('DOTS', Effect)
+export default VANTA

@@ -875,4 +875,5 @@ class Birds extends VantaBase {
   onResize() {}
 }
 Birds.initClass()
-export default VANTA.register('BIRDS', Birds)
+VANTA.register('BIRDS', Birds)
+export default VANTA

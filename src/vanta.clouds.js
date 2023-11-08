@@ -1,7 +1,8 @@
 import ShaderBase, {VANTA} from './_shaderBase.js'
 
 class Effect extends ShaderBase {}
-export default VANTA.register('CLOUDS', Effect)
+VANTA.register('CLOUDS', Effect)
+export default VANTA
 
 Effect.prototype.defaultOptions = {
   backgroundColor: 0xffffff,

@@ -301,4 +301,5 @@ class Effect extends VantaBase {
   }
 }
 Effect.initClass()
-export default VANTA.register('NET', Effect)
+VANTA.register('NET', Effect)
+export default VANTA

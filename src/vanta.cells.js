@@ -1,7 +1,8 @@
 import ShaderBase, {VANTA} from './_shaderBase.js'
 
 class Effect extends ShaderBase {}
-export default VANTA.register('CELLS', Effect)
+VANTA.register('CELLS', Effect)
+export default VANTA
 
 Effect.prototype.defaultOptions = {
   color1: 0x8c8c,

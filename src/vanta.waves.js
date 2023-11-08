@@ -186,18 +186,19 @@ class Waves extends VantaBase {
   }
 
   onMouseMove(x,y) {
-    const c = this.camera;
-    if (!c.oy) {
-      c.oy = c.position.y;
-      c.ox = c.position.x;
-      c.oz = c.position.z;
-    }
-    c.tx = c.ox + (((x-0.5) * 100) / this.options.zoom);
-    c.ty = c.oy + (((y-0.5) * -100) / this.options.zoom);
-    return c.tz = c.oz + (((x-0.5) * -50) / this.options.zoom);
+    // const c = this.camera;
+    // if (!c.oy) {
+    //   c.oy = c.position.y;
+    //   c.ox = c.position.x;
+    //   c.oz = c.position.z;
+    // }
+    // c.tx = c.ox + (((x-0.5) * 100) / this.options.zoom);
+    // c.ty = c.oy + (((y-0.5) * -100) / this.options.zoom);
+    // return c.tz = c.oz + (((x-0.5) * -50) / this.options.zoom);
   }
 }
 
 Waves.prototype.defaultOptions = defaultOptions
 Waves.initClass()
-export default VANTA.register('WAVES', Waves)
+VANTA.register('WAVES', Waves)
+export default VANTA
